@@ -88,5 +88,5 @@ pristine :
 	touch *.cc *.h
 
 ctags :
-	ctags *.h *.cc
+	ctags -R --tag-relative=y -f ./.git/tags 
 
